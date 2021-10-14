@@ -333,6 +333,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.rosy.rc \
     init.target.rc \
+    init.finix.rc \
     ueventd.qcom.rc
 
 # RenderScript HAL
