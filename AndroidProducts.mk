@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/palladium.mk
+    $(LOCAL_DIR)/palladium_rosy.mk
