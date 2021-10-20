@@ -7,7 +7,7 @@
    },
    {
       "remote":"github",
-      "branch":"eleven",
+      "branch":"aosp",
       "repository":"AnGgIt88/xd_vendor_xiaomi_rosy",
       "target_path":"vendor/xiaomi/rosy"
    }
