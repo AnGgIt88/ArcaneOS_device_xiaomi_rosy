@@ -25,15 +25,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Palladium Flag
 PALLADIUM_BUILD_TYPE := CARROT
 
-# PALLADIUM-PROPS For About Phone
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.palladiumdevice.maintainer=FinixDev™ \
-    ro.palladiumdevice.cpu=Adreno 506 \
-    ro.palladiumdevice.display=5.7 \
-    ro.palladiumdevice.displaytype=IPS LCD \
-    ro.palladiumdevice.camera=13MP + 5MP Front Flash Camera \
-    ro.palladiumdevice.battery=3300mAh
-
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_BOOTANIMATION_HALF_RES := true
