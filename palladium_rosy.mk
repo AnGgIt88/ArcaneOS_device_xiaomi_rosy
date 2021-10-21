@@ -25,9 +25,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Palladium Flag
 PALLADIUM_BUILD_TYPE := CARROT
 
-# Palladium build variant
-PALLADIUM_BUILD_VARIANT := GAPPS
-
 # Palladium faceunlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
