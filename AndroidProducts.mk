@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/palladium_rosy.mk
+    $(LOCAL_DIR)/aosp_rosy.mk
 
 COMMON_LUNCH_CHOICES := \
-    palladium_rosy-user \
-    palladium_rosy-userdebug \
-    palladium_rosy-eng
+    aosp_rosy-user \
+    aosp_rosy-userdebug \
+    aosp_rosy-eng
