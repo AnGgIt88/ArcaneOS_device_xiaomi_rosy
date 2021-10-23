@@ -1,10 +1,2 @@
 # DPM
 persist.vendor.dpm.feature=11
-
-# PALLADIUM-PROPS For About Phone
-ro.palladiumdevice.maintainer=FinixDev™
-ro.palladiumdevice.cpu=SDM450
-ro.palladiumdevice.display=5.7
-ro.palladiumdevice.displaytype=IPS
-ro.palladiumdevice.camera=13MP + 5MP Front Flash Camera
-ro.palladiumdevice.battery=3300mAh
