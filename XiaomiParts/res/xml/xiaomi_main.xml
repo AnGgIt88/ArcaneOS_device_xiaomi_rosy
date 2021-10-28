@@ -2,9 +2,12 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto">
-<PreferenceCategory
-  android:layout="@layout/banner_memek" />
+
 	<PreferenceCategory
+		android:layout="@layout/banner_memek"/>
+
+	<PreferenceCategory
+		android:layout="@layout/categori"
 		android:title="@string/audio_category">
 
 		<com.xiaomi.parts.preferences.SecureSettingSwitchPreference
@@ -44,6 +47,7 @@
 	</PreferenceCategory>
 
 	<PreferenceCategory
+		android:layout="@layout/categori"
 		android:title="@string/display_category">
 
 		<SwitchPreference
@@ -84,6 +88,7 @@
 	</PreferenceCategory>
 
 	<PreferenceCategory
+		android:layout="@layout/categori"
 		android:title="@string/vibration_category">
 
 		<com.xiaomi.parts.preferences.SecureSettingSwitchPreference
@@ -130,6 +135,7 @@
 	</PreferenceCategory>
 
 	<PreferenceCategory
+		android:layout="@layout/categori"
 		android:title="@string/other_category">
 
 		<com.xiaomi.parts.preferences.SecureSettingSwitchPreference
@@ -153,6 +159,7 @@
 	</PreferenceCategory>
 
 	<PreferenceCategory
+		android:layout="@layout/categori"
 		android:key="selinux"
 		android:title="@string/selinux_category">
 
@@ -187,3 +194,4 @@
 	</PreferenceCategory>
 
 </PreferenceScreen>
+
