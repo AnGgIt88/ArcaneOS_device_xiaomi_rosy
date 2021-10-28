@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
         android:gravity="center_vertical" 
         android:layout_gravity="center_vertical" 
         android:background="@drawable/mobx_preference_first_item_bg" 
