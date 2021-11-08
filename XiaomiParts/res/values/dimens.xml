@@ -2,6 +2,6 @@
 <resources>
     <!-- Base attributes available to CardView. -->
     <dimen name="mobx_card_rounded1">0.0dip</dimen>
-    <dimen name="mobx_card_rounded2">24.0dip</dimen>
+    <dimen name="mobx_card_rounded2">22.0dip</dimen>
     <dimen name="mobx_card_space">0.0dip</dimen>
 </resources>
