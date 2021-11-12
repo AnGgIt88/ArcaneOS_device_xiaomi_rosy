@@ -102,7 +102,7 @@
 		<mobx.projects.property.minimalist.space/>
 
 		<com.xiaomi.parts.preferences.VibrationSeekBarPreferenceMiddle
-			android:defaultValue="13"
+			android:defaultValue="60"
 			android:key="vibration_system"
 			android:max="100"
 			android:title="@string/vibration_system_title"
@@ -113,7 +113,7 @@
 		<mobx.projects.property.minimalist.space/>
 
 		<com.xiaomi.parts.preferences.VibrationSeekBarPreferenceMiddle
-			android:defaultValue="100"
+			android:defaultValue="60"
 			android:key="vibration_notification"
 			android:max="100"
 			android:title="@string/vibration_notification_title"
@@ -124,7 +124,7 @@
 		<mobx.projects.property.minimalist.space/>
 
 		<com.xiaomi.parts.preferences.VibrationSeekBarPreferenceBottom
-			android:defaultValue="100"
+			android:defaultValue="60"
 			android:key="vibration_call"
 			android:max="100"
 			android:title="@string/vibration_call_title"
