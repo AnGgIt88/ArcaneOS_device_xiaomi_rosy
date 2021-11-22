@@ -1,14 +1,14 @@
 [
    {
       "remote":"github",
-      "branch":"eleven",
+      "branch":"11",
       "repository":"AnGgIt88/Finix_kernel-4.9-rosy",
       "target_path":"kernel/xiaomi/rosy"
    },
    {
       "remote":"github",
-      "branch":"aosp",
-      "repository":"AnGgIt88/xd_vendor_xiaomi_rosy",
+      "branch":"aosp-11",
+      "repository":"AnGgIt86/vendor_xiaomi_rosy",
       "target_path":"vendor/xiaomi/rosy"
    },
    {
