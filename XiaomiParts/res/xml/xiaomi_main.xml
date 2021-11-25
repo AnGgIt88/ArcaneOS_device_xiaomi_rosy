@@ -6,6 +6,9 @@
 	<PreferenceCategory
 		android:layout="@layout/banner_memek"/>
 
+    <PreferenceCategory
+        android:layout="@layout/nfs" />
+
 	<PreferenceCategory
 		android:title="@string/audio_category">
 
