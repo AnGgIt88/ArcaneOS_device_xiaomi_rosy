@@ -20,6 +20,7 @@
     <string name="fps_info_summary">Show overlay with current frames per second</string>
 
     <!-- KCal -->
+    <string name="kcal_controll">Controll Settings</string>
     <string name="device_kcal_title">Display Calibration</string>
     <string name="device_kcal_summary">Display color calibration using KCAL</string>
     <string name="advanced_settings_kcal">Display Color Calibration</string>

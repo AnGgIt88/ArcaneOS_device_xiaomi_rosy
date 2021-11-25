@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
-        android:defaultValue="false"
-        android:key="kcal_enabled"
-        android:title="@string/kcal_disabled" />
+
+    <PreferenceCategory
+        android:title="@string/kcal_controll">
 
     <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
         android:defaultValue="false"
+        android:layout="@layout/card_top"
+        android:key="kcal_enabled"
+        android:title="@string/kcal_disabled" />
+
+	<mobx.projects.property.minimalist.space/>
+
+    <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:layout="@layout/card_middle"
         android:dependency="kcal_enabled"
         android:key="set_on_boot"
         android:title="@string/set_on_boot" />
 
+	<mobx.projects.property.minimalist.space/>
+
     <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
         android:defaultValue="false"
+        android:layout="@layout/card_bottom"
         android:dependency="kcal_enabled"
         android:key="grayscale"
         android:title="@string/grayscale" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="cat_colormanagement"
