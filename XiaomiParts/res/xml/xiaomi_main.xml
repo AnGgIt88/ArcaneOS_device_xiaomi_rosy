@@ -190,6 +190,20 @@
 			android:selectable="true"/>
 
 	</PreferenceCategory>
+	
+	<PreferenceCategory
+        android:title="@string/nfs_maintainer">
+        
+        <PreferenceScreen
+            android:icon="@drawable/ic_style_maintainer"
+            android:layout="@layout/card_single"
+            android:title="NFS Maintainer"
+            android:selectable="true"
+            android:summary="By NFS Projects Indonesia"
+            android:fragment="com.xiaomi.parts.rosy.AboutPhone">
+        </PreferenceScreen>
+        
+    </PreferenceCategory>
 
 </PreferenceScreen>
 

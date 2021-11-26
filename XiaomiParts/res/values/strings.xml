@@ -208,6 +208,7 @@
     <string name="selinux_unrooted_summary">Couldn\'t detect root. You must have root to use these switches</string>
     
     <!-- Info Devices -->
+    <string name="nfs_maintainer">Other Info</string>
     <string name="style_version_device">Devices</string>
     <string name="style_device_name_text">Redmi 5</string>
     <string name="style_version_cpu">CPU</string>
@@ -216,4 +217,7 @@
     <string name="style_device_maintainer_text">FinixDev™</string>
     <string name="style_version_battery">Battery</string>
     <string name="style_device_battery_text">3300 Mah</string>
+    
+    <!-- Fonts -->
+    <string name="fonts">@font/Virgo</string>
 </resources>
