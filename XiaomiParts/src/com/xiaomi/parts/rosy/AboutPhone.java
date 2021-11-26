@@ -1,16 +1,19 @@
 package com.xiaomi.parts.rosy;
 
 import android.os.Bundle;
-import com.xiaomi.parts.R;
-import android.preference.PreferenceActivity;
+import android.provider.Settings;
+import androidx.preference.PreferenceFragment;
+import androidx.preference.Preference;
 
-public class AboutPhoneActivity extends PreferenceActivity {
+import com.xiaomi.parts.R;
+
+public class AboutPhone extends PreferenceFragment  {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        getFragmentManager().beginTransaction()
-                .replace(android.R.id.content, new AboutPhone())
-                .commit();
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        setPreferencesFromResource(R.xml.nfs_maintainer, rootKey);
+
+        
     }
+
 }
