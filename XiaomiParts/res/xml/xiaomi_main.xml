@@ -200,7 +200,7 @@
             android:title="@string/nfs_title"
             android:selectable="true"
             android:summary="@string/nfs_summary"
-            android:fragment="com.xiaomi.parts.rosy.AboutPhone">
+            android:fragment="com.xiaomi.parts.rosy.AboutPhoneActivity">
         </PreferenceScreen>
         
     </PreferenceCategory>
