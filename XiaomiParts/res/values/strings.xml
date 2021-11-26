@@ -220,4 +220,8 @@
     
     <!-- Fonts -->
     <string name="fonts">@font/Virgo</string>
+    
+    <!-- NFSDev -->
+    <string name="nfs_title">NFS Maintainer</string>
+    <string name="nfs_summary">By NFS Project Indonesia</string>
 </resources>

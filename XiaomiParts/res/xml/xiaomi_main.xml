@@ -197,9 +197,9 @@
         <PreferenceScreen
             android:icon="@drawable/ic_style_maintainer"
             android:layout="@layout/card_single"
-            android:title="NFS Maintainer"
+            android:title="@string/nfs_title"
             android:selectable="true"
-            android:summary="By NFS Projects Indonesia"
+            android:summary="@string/nfs_summary"
             android:fragment="com.xiaomi.parts.rosy.AboutPhone">
         </PreferenceScreen>
         
