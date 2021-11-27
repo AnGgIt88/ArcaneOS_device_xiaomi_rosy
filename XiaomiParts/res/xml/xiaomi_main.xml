@@ -199,8 +199,11 @@
             android:layout="@layout/card_single"
             android:title="@string/nfs_title"
             android:selectable="true"
-            android:summary="@string/nfs_summary"
-            android:fragment="com.xiaomi.parts.rosy.AboutPhoneActivity">
+            android:summary="@string/nfs_summary">
+            <intent
+                android:targetPackage="com.xiaomi.parts"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.xiaomi.parts.rosy.AboutPhoneActivity" />
         </PreferenceScreen>
         
     </PreferenceCategory>

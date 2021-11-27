@@ -7,10 +7,9 @@ import android.preference.PreferenceActivity;
 public class AboutPhoneActivity extends PreferenceActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        getFragmentManager().beginTransaction()
-                .replace(android.R.id.content, new AboutPhone())
-                .commit();
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        setPreferencesFromResource(R.xml.nfs_maintainer, rootKey);
+
+        
     }
 }
