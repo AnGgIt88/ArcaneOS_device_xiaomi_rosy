@@ -7,7 +7,9 @@ import android.preference.PreferenceActivity;
 public class AboutPhoneActivity extends PreferenceActivity {
 
     @Override
-    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
         setPreferencesFromResource(R.xml.nfs_maintainer, rootKey);
 
         

@@ -5,6 +5,4 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory
         android:layout="@layout/nfs_rosy" />
-    <PreferenceCategory
-        android:layout="@layout/promo_links" />
 </PreferenceScreen>
