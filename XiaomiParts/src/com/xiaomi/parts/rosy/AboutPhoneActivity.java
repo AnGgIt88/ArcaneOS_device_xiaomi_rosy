@@ -5,10 +5,8 @@ import com.xiaomi.parts.R;
 import android.preference.PreferenceActivity;
 
 public class AboutPhoneActivity extends PreferenceActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
         
         setPreferencesFromResource(R.xml.nfs_maintainer, rootKey);
 
