@@ -7,9 +7,6 @@ import android.preference.PreferenceActivity;
 public class AboutPhoneActivity extends PreferenceActivity {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        
-        setPreferencesFromResource(R.xml.nfs_maintainer);
-
-        
+        addPreferencesFromResource(R.xml.nfs_maintainer);
     }
 }
