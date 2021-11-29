@@ -6,7 +6,9 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.Preference;
 
 import com.xiaomi.parts.R;
-import com.xiaomi.parts.preferences.SecureSettingSeekBarPreference;
+import com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceTop;
+import com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceMiddle;
+import com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceBottom;
 import com.xiaomi.parts.preferences.SecureSettingSwitchPreference;
 
 public class KCalSettings extends PreferenceFragment implements
