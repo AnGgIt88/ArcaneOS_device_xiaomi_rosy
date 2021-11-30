@@ -37,6 +37,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceTop
             android:defaultValue="255"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="color_red"
             android:max="255"
             android:title="@string/color_red" />
@@ -44,6 +45,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceMiddle
             android:defaultValue="255"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="color_green"
             android:max="255"
             android:title="@string/color_green" />
@@ -51,6 +53,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceMiddle
             android:defaultValue="255"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="color_blue"
             android:max="255"
             android:title="@string/color_blue" />
@@ -58,6 +61,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceBottom
             android:defaultValue="35"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="color_minimum"
             android:max="255"
             android:title="@string/color_minimum" />
@@ -71,6 +75,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceTop
             android:defaultValue="35"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="saturation"
             android:max="158"
             android:title="@string/saturation" />
@@ -78,6 +83,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceMiddle
             android:defaultValue="127"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="value"
             android:max="255"
             android:title="@string/value" />
@@ -85,6 +91,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceMiddle
             android:defaultValue="127"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="contrast"
             android:max="255"
             android:title="@string/contrast" />
@@ -92,6 +99,7 @@
         <com.xiaomi.parts.preferences.SecureSettingSeekBarPreferenceBottom
             android:defaultValue="0"
             android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
             android:key="hue"
             android:max="1536"
             android:title="@string/hue" />
